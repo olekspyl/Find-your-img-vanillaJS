@@ -12,15 +12,13 @@
     "url": "git+https://github.com/olekspyl/crud.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Oleksandra Pylypchuk <lemocream@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/olekspyl/crud/issues"
   },
   "dependencies": {
     "axios": "^1.4.0",
-    "basiclightbox": "^5.0.4",
-    "cors": "^2.8.5",
     "metro4": "^4.5.1",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.6",
