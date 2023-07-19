@@ -13,7 +13,7 @@ This project is built using the following tools:
 3. Library Notiflix for user notifications.
 4. Libraries metro4, modern-normalize and simplelightbox for stylization.
 
-## Main principals and methodics used in
+## Main principals and methodics are used in
 
 - DOM, events and propagation of events
 - pagination, HTTPS-requests
