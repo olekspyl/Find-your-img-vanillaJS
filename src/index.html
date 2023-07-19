@@ -2,13 +2,46 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Find your img</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.korzh.com/metroui/v4.5.1/css/metro-all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <form class="search-form" id="search-form">
+      <div class="background">
+        <h1>Find your high-quality images for any purpose!</h1>
+        <div class="container">
+          <input
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            data-role="input"
+            data-prepend="Search images..."
+            data-history="true"
+            class="shadowed"
+          />
+          <button type="submit" class="button info shadowed">Search</button>
+        </div>
+      </div>
+      <ul class="gallery"></ul>
+      <div class="btn-wrap">
+        <button
+          type="button"
+          class="load-more button info outline large shadowed"
+          hidden
+        >
+          Load more
+        </button>
+      </div>
+    </form>
+    <script src="https://cdn.korzh.com/metroui/v4.5.1/js/metro.min.js"></script>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
