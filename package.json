@@ -1,21 +1,21 @@
 {
-  "name": "crud",
+  "name": "Find-your-img-vanillaJS",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://olekspyl.github.io/crud",
+  "homepage": "https://olekspyl.github.io/Find-your-img-vanillaJS",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /crud/"
+    "build": "parcel build src/*.html --public-url /Find-your-img-vanillaJS/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olekspyl/crud.git"
+    "url": "git+https://github.com/olekspyl/Find-your-img-vanillaJS.git"
   },
   "keywords": [],
   "author": "Oleksandra Pylypchuk <lemocream@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/olekspyl/crud/issues"
+    "url": "https://github.com/olekspyl/Find-your-img-vanillaJS/issues"
   },
   "dependencies": {
     "axios": "^1.4.0",
